@@ -71,7 +71,7 @@ function Login(params) {
                 <p style={{fontSize:"16px", color:"red"}}>{errortext}</p>
                 <div className="btn" id="siginup">
                     <button onClick={handleLogin} type="button">Log in</button> <br/><br/>
-                    <a href="/forget_password" id="forgot" style={{color: "black"}}>Forgot Password?</a>
+                    {/* <a href="/forget_password" id="forgot" style={{color: "black"}}>Forgot Password?</a> */}
                 </div>
             </div>
         </div>
